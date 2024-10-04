@@ -10,7 +10,6 @@ pub enum StandardizedDomainPrameter {
 
     // See RFC 5639:Elliptic Curve Cryptography (ECC) Brainpool Standard Curves and Curve Generation
     EC_SECP192R1 = 0x08, // NIST P-192, SECG p192r1, FIPS 186-4
-    EC_B
 
     // 3-7 and 19-31.
     ReservedForFutureUse(u8),
