@@ -1,8 +1,6 @@
-
 // ICAO 9303-11 table 12 (p. 58-59)
 #[repr(u8)]
 pub enum StandardizedDomainPrameter {
-
     // See RFC 5114: Additional Diffie-Hellman Groups for Use with IETF Standards
     MODP_1024_160 = 0x00, // RFC 5114-2.2
     MODP_2048_224 = 0x01, // RFC 5114-2.3

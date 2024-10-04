@@ -1,7 +1,5 @@
-mod tr03110;
-mod pace;
-mod icao9303;
-
-pub use tr03110;
-pub use pace;
-pub use icao9303;
+pub mod icao9303;
+pub mod iso7816;
+pub mod nfc;
+pub mod pace;
+pub mod tr03110;
